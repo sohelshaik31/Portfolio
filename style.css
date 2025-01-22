@@ -1,0 +1,346 @@
+*{
+    font-family: "Ubuntu", serif;
+}
+
+.page1{
+    height: 80vh;
+    background-color: #FEF9E1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: left;
+}
+.page1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page1 .container h1{
+    font-size: 5em;
+    letter-spacing: 0.5rem;
+}
+.page1 .container p{
+    font-size: 1.3em;
+}
+.page1 .container .img img{
+    border-radius: 50%;
+    width: 80%;
+}
+.page1 .container .img{
+    text-align: center !important;
+}
+
+.page1 .container .btn{
+    padding: 0%;
+}
+.page1 .container .btn a{
+    font-size: 1rem;
+    color: black;
+    text-transform:none;
+    text-decoration: underline;
+}
+
+.page2{
+    background-color: #E5D0AC;
+}
+.page2 h1{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.3rem;
+    letter-spacing: 0.5rem;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.page3{
+    color: white;
+    background-color: #A31D1D;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.page3 h1{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.3rem;
+    letter-spacing: 0.5rem;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+.page3 h2{
+    color: #fff59b;
+}
+.page3 .icons {
+    border-radius: 200%;
+    margin-bottom: 2%;
+}
+
+.edu-col{
+    width: 33.3%;
+}
+
+/* .page3 .row{
+    column-gap: 12.3%;
+} */
+.page4{
+    color: white;
+    background-color: #6D2323;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.page4 .container{
+    padding-top: 2%;
+}
+.page4 h1{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.3rem;
+    letter-spacing: 0.5rem;
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 100%;
+}
+
+.card-body p{
+    text-align: justify !important;
+}
+
+.page5{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(25, 2, 2);
+    height: 15vh;
+}
+
+.page5 .row{
+    height: 50%;
+}
+
+svg{
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-col1 a{
+    margin: 0% 10% !important;
+}
+.footer-col2 p{
+    font-size: 1rem;
+    width: fit-content;
+    color: white;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+.footer-col3 p{
+    font-size: 1rem;
+    width: fit-content;
+    color: white;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+.footer-col4 p{
+    font-size: 1rem;
+    width: fit-content;
+    color: white;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+@media (max-width: 1200px){
+    .page1 .container h1{
+        font-size: 4em;
+        letter-spacing: 0.4rem;
+    }
+    .page1 .container p{
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 992px) and (min-width:768px){
+    .page1 .container h1{
+        font-size: 3.2em;
+        letter-spacing: 0.3rem;
+    }
+    .page1 .container p{
+        font-size: 1em;
+    }
+    .page1 .container .img img{
+        border-radius: 50%;
+        width: 100%;
+    }
+    .page3 .row{
+        column-gap: 0%;
+    }
+    .page4 h1{
+        width: 70%;
+    }
+    .page5{
+        height: 21vh;
+    }
+}
+
+@media (max-width: 768px) and (min-width:577px){
+    .page1{
+        height: 100vh;
+        text-align: center;
+    }
+    .page1 .container h1{
+        font-size: 4em;
+        letter-spacing: 0.4rem;
+    }
+    .page1 .container .img{
+        padding-bottom: 5%;
+    }
+    .page1 .container p{
+        font-size: 1.3em;
+    }
+    .page2 h1{
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+        margin-bottom: 4%;
+    }
+    .page3 h1{
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+        margin-bottom: 4%;
+    }
+    .edu-col{
+        width: 100%;
+    }
+    .page4 h1{
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+        margin-top: 4%;
+        margin-bottom: 0%;
+    }
+    .page5{
+        height: 20vh;
+    }
+}
+
+@media (max-width:576px) {
+    .page1 .container h1{
+        font-size: 1.5rem;
+        letter-spacing: 0.4rem;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .page1 .container p{
+        font-size: 1em;
+        text-align: center;
+    }
+    .page1{
+        height: 50vh;
+        text-align: center;
+    }
+    .page1 .container{
+        display: block;
+    }
+    .page1 .container .img{
+        text-align: center;
+        padding-bottom: 4%;
+        margin-top: 10%;
+        overflow: hidden;
+        height: 70%;
+    }
+    .page1 .container .img img{
+        width: 28%;
+    }
+    .page2{
+        padding-top: 8% !important;
+    }
+    .page2 h1{
+        text-align: center;
+        font-size: 1.4rem;
+        letter-spacing: 0.3rem;
+        margin-bottom: 4%;
+    }
+    .accordion-button{
+        font-size: 0.8rem;
+    }
+    .page3 h1{
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: 0.3rem;
+        margin-bottom: 4%;
+    }
+    .edu-col{
+        width: 100%;
+    }
+    .page4 h1{
+        margin-top: 8%;
+        text-align: center;
+        font-size: 1.6rem;
+        letter-spacing: 0.3rem;
+        margin-bottom: 0%;
+    }
+    .page5{
+        height: 48vh;
+        padding-bottom: 15%;
+    }
+    .footer{
+        margin-bottom: 2%;
+    }
+    .footer-col1 a{
+        margin: 0% 7% !important;
+    }
+}
+
+@media(max-width:400px){
+    .page1 .container .img{
+        height: 70%;
+        margin-top: 12.5%;
+    }
+    .page1 .container .img img{
+        width: 50%;
+    }
+    .page2 h1{
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 4%;
+    }
+    .page3 h1{
+        text-align: center;
+        font-size: 1.3rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 4%;
+    }
+    .page4 h1{
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 0%;
+        margin-top: 10%;
+    }
+    .page5{
+        height: 45vh;
+        padding-bottom: 15%;
+    }
+    .footer-col1 a{
+        margin: 0% 5% !important;
+    }
+    .footer-col2{
+        margin-top: 4%;
+    }
+}
